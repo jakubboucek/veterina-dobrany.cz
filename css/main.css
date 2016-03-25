@@ -1,0 +1,49 @@
+/*
+
+	project: Social Community Management
+	author:  Luka Cvrk | modify: Libor Bolda
+	www.solucija.com
+
+*/
+
+*{margin:0;padding:0;outline:0}
+body { font: 12px/18px 'Open Sans', Georgia, "Times New Roman", Times, sans-serif; background: #f4f4f4 url(../images/bg.jpg) no-repeat center top; color: #777; }
+
+a { text-decoration: none; color: #404040; }
+a:hover { color: #d67028; }
+
+p  { margin: 0 0 15px; line-height: 1.6em; }
+h1 { font-family: 'Jockey One', 'Open Sans', Arial, sans-serif; float: left; width: 320px; line-height: 1.3em; font-size: 2.8em; color: #272727; margin: 0 0 20px; text-shadow: #ddd 1px 1px 1px; text-transform: uppercase }
+h2 { margin: 0 0 15px; font-size: 1.8em }
+h3 { margin: 0 0 7px; font-size: 1.6em; clear: both; color: #444; line-height: 1.3em; }
+h4 { margin: 0 0 10px; font-size: 1.4em; }
+
+img { border: 0; }
+.x { clear: both; }
+
+#content { margin: 0 auto; width: 960px;}
+#header { height: 350px; }
+#top { padding: 13px 0 0; margin: 0 0 60px; color: #444; height: 31px; }
+#pitch { clear: left; float: left; width: 610px; font-size: 1.2em; padding: 20px 0 0; color: #404040; margin: 0 0 60px; }
+
+#menu { float: right; margin: 5px 15px 0 0; }
+#menu li { display: inline; }
+#menu li a { float: left; color: #272727; font-size: 1.3em; margin: 0 0 0 20px; padding: 4px; }
+#menu li a:hover, #menu li a.current { color: #000; border-bottom: 3px solid #d67028; }
+
+#cols { clear: both; }
+.col { float: left; width: 300px; margin: 0 39px 30px 0; }
+.last { position: relative; float: right; margin: -76px 0 0; background: #fff; width: 280px; font-size: 1.2em; }
+.col.last div { padding: 12px; }
+.img { clear: both; margin: 0 0 15px; border: 1px solid #ddd; padding: 5px; }
+.date { margin: 0 0 12px; color: #444; }
+.col h4 { background: #d67028; padding: 15px; color: #fff; }
+
+#main { float: left; clear: both; width: 640px; font-size: 1.2em; }
+.left { float: left; margin: 0 30px 10px 0; }
+#main ul li { list-style-type: square; padding: 0 0 0 15px; margin: 0 0 0 15px; }
+
+#footer { clear: both; border-top: 3px solid #d67028; color: #999; padding: 25px 0 15px 0; }
+#right { float: right; }
+#footer p { margin: 0 0 12px; }
+#footer a { color: #555; margin: 0 0 0 5px; }
